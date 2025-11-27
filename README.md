@@ -1,68 +1,46 @@
-🗃️ Repositório de Estudos — Banco de Dados & SQL
+# 🗃️ Banco de Dados & SQL — Repositório de Estudos
 
-Bem-vindo(a) ao meu repositório de exercícios e projetos voltados para Banco de Dados e SQL!
-Aqui você encontrará minha evolução prática na criação de tabelas, consultas, modelagem e demais conceitos essenciais para o desenvolvimento profissional nessa área.
+Bem-vindo(a) ao meu repositório de exercícios, práticas e projetos dedicados ao estudo de SQL e Banco de Dados!  
+Aqui registro minha evolução e tudo o que venho aprendendo na área de dados.
 
-📚 O que você vai encontrar aqui
+---
 
-Este repositório é organizado por pastas, onde cada uma contém:
+## 📚 Conteúdo do Repositório
 
-✔️ Um exercício ou mini-projeto independente
-✔️ Scripts SQL utilizados
-✔️ Arquivo(s) com o enunciado (PDF quando disponível)
-✔️ README próprio explicando o contexto da atividade
+Cada pasta representa um exercício ou projeto contendo:
 
-🎯 Objetivo do Repositório
+- ✔ Scripts SQL  
+- ✔ Enunciado da atividade (PDF, quando disponível)  
+- ✔ Explicações e descrições do que foi desenvolvido  
 
-Registrar a minha prática e progresso em:
+---
 
-Modelagem de dados
+## 🎯 Objetivo do Repositório
 
-Normalização e criação de tabelas
+Este repositório tem como foco fortalecer meus conhecimentos em:
 
-Inserção, alteração e remoção de dados
+- Conceitos de Banco de Dados Relacionais  
+- Sintaxe SQL aplicada no MySQL  
+- Criação e manipulação de tabelas  
+- Consultas simples e complexas  
+- Entendimento de casos reais de uso  
 
-Consultas SQL utilizando:
+---
 
-SELECT, WHERE, AND, OR
+## 🧠 Tecnologias & Ferramentas Utilizadas
 
-Filtros, ordenação e projeções
+- MySQL  
+- MySQL Command Line Client / MySQL Workbench  
+- Git & GitHub para versionamento  
 
-Funções e operadores (em exercícios futuros)
+---
 
-Uso de SGBDs (MySQL)
+## 🚀 O que vem pela frente
 
-🧠 Tecnologias e Ferramentas
+- Funções agregadas  
+- JOINs entre tabelas  
+- Modelagem de dados e normalização  
+- Projetos completos com CRUD  
+- Scripts mais avançados de consultas  
 
-MySQL Server
-
-MySQL Command Line Client / Workbench
-
-Git & GitHub para versionamento
-
-📌 Estrutura do Repositório
-
-Exemplo de organização:
-
-/
-│
-├── Exercício_Livraria/
-│   ├── Script.sql
-│   ├── Enunciado.pdf
-│   └── README.md
-│
-└── (novos exercícios em breve) 🚀
-
-🚀 Próximos Passos
-
-Mais consultas SQL com funções agregadas
-
-JOINs entre tabelas
-
-Modelagem completa de um banco relacional
-
-Pequenos projetos práticos aplicando CRUD
-
-✨ Status
-
-📌 Repositório em constante evolução — sempre que eu aprender algo novo em Banco de Dados, estará aqui!
+Este repositório está em constante evolução — sempre que eu aprender algo novo em Banco de Dados, estará aqui! 🚀
