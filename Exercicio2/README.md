@@ -1,49 +1,49 @@
-# 📊 Exercícios SQL – Consultas e Otimização de Filtros
+# 📊 Exercícios SQL – Filtragem, Contagem e Performance
 
-Este diretório contém consultas SQL desenvolvidas para treinar filtragens condicionais utilizando operadores lógicos (`AND`, `OR`, `IN`) e boas práticas de escrita e organização. Os exercícios foram resolvidos com foco não apenas em obter o resultado correto, mas também considerando **performance** e **clareza de código**.
-
----
-
-## 🎯 Objetivos dos Exercícios
-
-- Selecionar funcionários por departamento
-- Filtrar por sexo e setor combinando múltiplas condições
-- Contar registros agrupados por departamento
-- Organizar resultados de forma lógica e legível
-- Aplicar boas práticas em consultas SQL
+Este repositório contém consultas SQL focadas em filtros condicionais utilizando operadores como `AND`, `OR` e `IN`, além de agrupamentos com `GROUP BY` e contagens com `COUNT()`.  
+Os exercícios foram realizados com foco em **clareza**, **boas práticas** e **performance**.
 
 ---
 
-## 🛠️ Recursos SQL Utilizados
+## 🎯 O que foi praticado
 
-| Recurso | Finalidade |
-|--------|------------|
-| `SELECT` | Seleção de dados |
-| `WHERE` | Filtragem de resultados |
-| `OR` / `AND` | Combinação de condições |
-| `IN` | Mais legível e eficiente que múltiplos OR |
-| `GROUP BY` | Agrupamento por categorias |
-| `COUNT()` | Contagem de registros |
-| `ORDER BY` | Ordenação do resultado |
-| Comentários estruturados | Explicar raciocínio e contexto |
+✔ Seleção de dados com `SELECT`  
+✔ Filtragem com `WHERE`  
+✔ Combinação de condições com `AND` e `OR`  
+✔ Uso de `IN` para melhorar legibilidade  
+✔ Agrupamento de dados com `GROUP BY`  
+✔ Contagem de registros com `COUNT()`  
+✔ Ordenação com `ORDER BY`  
+✔ Comentários explicativos no código  
 
 ---
 
-## 📌 Descrição dos Exercícios
+## 📌 Descrição dos exercícios
 
-### 1️⃣ Funcionários dos setores FILMES ou ROUPAS
-Primeiro é exibida a quantidade total de funcionários por departamento.  
-Depois, apenas os colaboradores destes dois setores são listados.
+### 🔹 1️⃣ Funcionários dos setores FILMES ou ROUPAS
+- Contagem geral de funcionários por departamento
+- Listagem apenas dos colaboradores dos setores selecionados
 
-### 2️⃣ Funcionárias dos setores FILMES ou LAR
-Solicitação do gestor de marketing para envio de e-mails.  
-A consulta mostra a contagem e depois lista das funcionárias com seus contatos.
+### 🔹 2️⃣ Funcionárias dos setores FILMES ou LAR
+- Necessidade do gestor de marketing para envio de e-mails
+- Contagem e listagem das funcionárias com seus contatos
 
-### 3️⃣ Funcionários Masculinos OU do setor JARDIM
-Qualquer funcionário do sexo masculino deve ser exibido.  
-Além disso, todos do setor JARDIM também devem aparecer, independentemente do sexo.
+### 🔹 3️⃣ Funcionários Masculinos OU do setor JARDIM
+- Todos os funcionários do sexo masculino devem ser exibidos
+- Qualquer funcionário do setor Jardim também deve aparecer
 
 ---
 
-## 📂 Estrutura do Repositório
+## 📎 Arquivos do projeto
 
+📄 Exercício completo em PDF:  
+➡️ **Problema_2.pdf**  
+
+💻 Script SQL com as consultas:  
+➡️ **Script.sql**
+
+---
+
+Caso queira testar as consultas, basta importar o script em um banco de dados e executar os comandos comentados.
+
+Bom estudo e boa prática! 🚀
